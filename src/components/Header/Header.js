@@ -12,11 +12,8 @@ function Header({refreshingData}) {
         <AppBar className="app-bar" position="sticky">
             <Typography className="box" variant="h6" color="inherit" component="div">
                 Asian Countries
+                <Button className="button" color="secondary" variant="contained" onClick={refreshingData}>Refresh</Button>
             </Typography>
-            <div className="button">
-                {/* this button will refresh the data from the api */}
-                <Button color="success" variant="contained" onClick={refreshingData}>Refresh</Button>
-            </div>
         </AppBar>
       
     )
