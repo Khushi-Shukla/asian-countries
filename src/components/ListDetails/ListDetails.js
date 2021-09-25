@@ -8,11 +8,6 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 
-const mapping=(borders)=>{
-    borders.map((border)=>{
-        <div>{border}</div>
-    })
-}
 
 function ListDetails() {
     const [inputval, setInputVal]=useState([]);
@@ -38,18 +33,42 @@ function ListDetails() {
             }, 1000);
     }
 
-    const showName=(countries)=>{
+    const getBorder=(Borders)=>{
+        if(!Borders){
+            return <div>Not Available</div>
+        }
+   
+        return (
+            
+            Borders.map((border)=>{
+             return <li key={border}>{border}</li>
+        })
+        )
+    }
+
+    const getLang=(Languages)=>{
+        if(!Languages)
+        return <div>Not Available</div>
+        const keys= Object.keys(Languages);
+        return keys.map((key, index) => {
+            return <li key={index}>{Languages[key]}</li>
+        });
+
+    }
+    const getCountry=(countries)=>{
         //displaying the country in a card
+        
         if(!countries.length){
             return(
-            <Box sx={{ width: '100%' }}>
-                <LinearProgress />
+            <Box className="progress" sx={{ width: '100%' }}>
+                <LinearProgress /> 
             </Box>
             );
         }
         else
         return (
-            countries.map(country => 
+            
+            countries.map(country =>
                 <Card key={country.ccn3} className="card" sx={{ maxWidth: 345 }} >
                     <CardMedia
                        className="flag"
@@ -65,29 +84,33 @@ function ListDetails() {
                         <Typography variant="body2" color="text.secondary">
                             Capital: {country.capital} <br/>
                             Region: {country.region} <br/>Sub-region: {country.subregion} <br/>
-                            Population: {country.population} <br/>
-                            Borders: 
-                                <li>{country.borders}</li>
-                            
+                            Borders: <div className="detail">{getBorder(country.borders)}</div>
+                            Languages: <div className="detail">{getLang(country.languages)}</div>
+                            Population: {country.population}Not Avaialble <br/>
+                            {/* The population is not available at https://restcountries.com/v3/region/asia */}
                         </Typography>
                     </CardContent>
                 </Card>
                 )
+                
+
         );
         
     }
 
     return (
         <div>
-            <div>
+
+            <div className="button">
                 {/* this button will refresh the data from the api */}
-                <Button  variant="contained" onClick={refreshCountries}>Refresh</Button>
+                <Button variant="outlined" onClick={refreshCountries}>Refresh</Button>
             </div>
             <div className="list-details">
-            {showName(inputval)}          
+                {getCountry(inputval)}          
             
             </div>
-        </div>
+        </div>   
+        
     )
 }
 

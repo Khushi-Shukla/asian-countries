@@ -12,3 +12,17 @@
 .card{
     margin: 30px;
 }
+
+.button{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* position: fixed; */
+}
+.detail{
+    margin-left: 55px;
+}
+.progress{
+    /* display: flex; */
+    /* justify-content: center; */
+}
