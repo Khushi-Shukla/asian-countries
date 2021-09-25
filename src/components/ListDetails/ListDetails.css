@@ -2,3 +2,13 @@
     width: 50px;
     height: auto;
 }
+
+.list-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.card{
+    margin: 30px;
+}
