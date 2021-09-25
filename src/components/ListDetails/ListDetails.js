@@ -9,29 +9,30 @@ import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 
 
-function ListDetails() {
-    const [inputval, setInputVal]=useState([]);
+function ListDetails({getCountriesValues, inputval}) {
+ //   const [inputval, setInputVal]=useState([]);
 
-    const getCountries=()=>{
-        // GET request using fetch inside useEffect React hook
-            fetch('https://restcountries.com/v3/region/asia')
-                .then(response => response.json())
-                .then(data => setInputVal(data));
+    // const getCountries=()=>{
+    //     // GET request using fetch inside useEffect React hook
+    //         fetch('https://restcountries.com/v3/region/asia')
+    //             .then(response => response.json())
+    //             .then(data => setInputVal(data));
         
-    }        
+    // }        
     
 
     useEffect(() => {
-      getCountries();
+   //   getCountries();
+   getCountriesValues();
     // empty dependency array means this effect will only run once (like componentDidMount in classes)
     }, []);
 
-    const refreshCountries=()=>{
-        setInputVal([]);
-            setTimeout(() => {
-              getCountries();
-            }, 1000);
-    }
+    // const refreshCountries=()=>{
+    //     setInputVal([]);
+    //         setTimeout(() => {
+    //           getCountries();
+    //         }, 1000);
+    // }
 
     const getBorder=(Borders)=>{
         if(!Borders){
@@ -55,7 +56,7 @@ function ListDetails() {
         });
 
     }
-    const getCountry=(countries)=>{
+    const showCountry=(countries)=>{
         //displaying the country in a card
         
         if(!countries.length){
@@ -103,10 +104,10 @@ function ListDetails() {
 
             <div className="button">
                 {/* this button will refresh the data from the api */}
-                <Button variant="outlined" onClick={refreshCountries}>Refresh</Button>
+                {/* <Button variant="outlined" onClick={refreshCountries}>Refresh</Button> */}
             </div>
             <div className="list-details">
-                {getCountry(inputval)}          
+                {showCountry(inputval)}          
             
             </div>
         </div>   

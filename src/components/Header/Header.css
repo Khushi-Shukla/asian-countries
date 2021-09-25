@@ -5,3 +5,9 @@
 .box{
     padding: 20px
 }
+.button{
+    /* margin-left: 200px; */
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* position: fixed; */
+}
