@@ -65,7 +65,7 @@ function ListDetails({getCountriesValues, inputval}) {
                             {country.name.common}
                         </Typography>
                         <Typography component="span" variant="body2" color="text.secondary">
-                            Capital: {country.capital} <br/>
+                            <br/>Capital: {country.capital} <br/>
                             Region: {country.region} <br/>Sub-region: {country.subregion} <br/>
                             Borders: <div className="detail">{getBorder(country.borders)}</div>
                             Languages: <div className="detail">{getLang(country.languages)}</div>
