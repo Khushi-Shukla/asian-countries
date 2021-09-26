@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Khushi-Shukla/asian-countries/static/css/main.b28bdba9.chunk.css",
-    "main.js": "/Khushi-Shukla/asian-countries/static/js/main.ba4c15c5.chunk.js",
-    "main.js.map": "/Khushi-Shukla/asian-countries/static/js/main.ba4c15c5.chunk.js.map",
-    "runtime-main.js": "/Khushi-Shukla/asian-countries/static/js/runtime-main.628dbdf5.js",
-    "runtime-main.js.map": "/Khushi-Shukla/asian-countries/static/js/runtime-main.628dbdf5.js.map",
-    "static/js/2.9ed4c09a.chunk.js": "/Khushi-Shukla/asian-countries/static/js/2.9ed4c09a.chunk.js",
-    "static/js/2.9ed4c09a.chunk.js.map": "/Khushi-Shukla/asian-countries/static/js/2.9ed4c09a.chunk.js.map",
-    "static/js/3.cf32a4d7.chunk.js": "/Khushi-Shukla/asian-countries/static/js/3.cf32a4d7.chunk.js",
-    "static/js/3.cf32a4d7.chunk.js.map": "/Khushi-Shukla/asian-countries/static/js/3.cf32a4d7.chunk.js.map",
+    "main.css": "/Khushi-Shukla/asian-countries/static/css/main.d273d55a.chunk.css",
+    "main.js": "/Khushi-Shukla/asian-countries/static/js/main.56c108a4.chunk.js",
+    "main.js.map": "/Khushi-Shukla/asian-countries/static/js/main.56c108a4.chunk.js.map",
+    "runtime-main.js": "/Khushi-Shukla/asian-countries/static/js/runtime-main.c08d54d2.js",
+    "runtime-main.js.map": "/Khushi-Shukla/asian-countries/static/js/runtime-main.c08d54d2.js.map",
+    "static/js/2.c6d82668.chunk.js": "/Khushi-Shukla/asian-countries/static/js/2.c6d82668.chunk.js",
+    "static/js/2.c6d82668.chunk.js.map": "/Khushi-Shukla/asian-countries/static/js/2.c6d82668.chunk.js.map",
+    "static/js/3.475846c1.chunk.js": "/Khushi-Shukla/asian-countries/static/js/3.475846c1.chunk.js",
+    "static/js/3.475846c1.chunk.js.map": "/Khushi-Shukla/asian-countries/static/js/3.475846c1.chunk.js.map",
     "index.html": "/Khushi-Shukla/asian-countries/index.html",
-    "static/css/main.b28bdba9.chunk.css.map": "/Khushi-Shukla/asian-countries/static/css/main.b28bdba9.chunk.css.map",
-    "static/js/2.9ed4c09a.chunk.js.LICENSE.txt": "/Khushi-Shukla/asian-countries/static/js/2.9ed4c09a.chunk.js.LICENSE.txt"
+    "static/css/main.d273d55a.chunk.css.map": "/Khushi-Shukla/asian-countries/static/css/main.d273d55a.chunk.css.map",
+    "static/js/2.c6d82668.chunk.js.LICENSE.txt": "/Khushi-Shukla/asian-countries/static/js/2.c6d82668.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.628dbdf5.js",
-    "static/js/2.9ed4c09a.chunk.js",
-    "static/css/main.b28bdba9.chunk.css",
-    "static/js/main.ba4c15c5.chunk.js"
+    "static/js/runtime-main.c08d54d2.js",
+    "static/js/2.c6d82668.chunk.js",
+    "static/css/main.d273d55a.chunk.css",
+    "static/js/main.56c108a4.chunk.js"
   ]
 }
