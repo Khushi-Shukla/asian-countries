@@ -1,38 +1,20 @@
-import React, { useState, useEffect} from 'react'
+import React, { useEffect } from 'react'
 import './ListDetails.css'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import LinearProgress from '@mui/material/LinearProgress';
 
 
 function ListDetails({getCountriesValues, inputval}) {
- //   const [inputval, setInputVal]=useState([]);
-
-    // const getCountries=()=>{
-    //     // GET request using fetch inside useEffect React hook
-    //         fetch('https://restcountries.com/v3/region/asia')
-    //             .then(response => response.json())
-    //             .then(data => setInputVal(data));
-        
-    // }        
-    
 
     useEffect(() => {
-   //   getCountries();
-   getCountriesValues();
-    // empty dependency array means this effect will only run once (like componentDidMount in classes)
-    }, []);
+           getCountriesValues();
+          
+    },[getCountriesValues]);
 
-    // const refreshCountries=()=>{
-    //     setInputVal([]);
-    //         setTimeout(() => {
-    //           getCountries();
-    //         }, 1000);
-    // }
 
     const getBorder=(Borders)=>{
         if(!Borders){
@@ -79,10 +61,10 @@ function ListDetails({getCountriesValues, inputval}) {
                      />
 
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h5" component="span">
                             {country.name.common}
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography component="span" variant="body2" color="text.secondary">
                             Capital: {country.capital} <br/>
                             Region: {country.region} <br/>Sub-region: {country.subregion} <br/>
                             Borders: <div className="detail">{getBorder(country.borders)}</div>
@@ -102,10 +84,7 @@ function ListDetails({getCountriesValues, inputval}) {
     return (
         <div>
 
-            <div className="button">
-                {/* this button will refresh the data from the api */}
-                {/* <Button variant="outlined" onClick={refreshCountries}>Refresh</Button> */}
-            </div>
+            
             <div className="list-details">
                 {showCountry(inputval)}          
             
