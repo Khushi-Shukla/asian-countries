@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Khushi-Shukla/asian-countries/static/css/main.d273d55a.chunk.css",
-    "main.js": "/Khushi-Shukla/asian-countries/static/js/main.b2583eb7.chunk.js",
-    "main.js.map": "/Khushi-Shukla/asian-countries/static/js/main.b2583eb7.chunk.js.map",
-    "runtime-main.js": "/Khushi-Shukla/asian-countries/static/js/runtime-main.c08d54d2.js",
-    "runtime-main.js.map": "/Khushi-Shukla/asian-countries/static/js/runtime-main.c08d54d2.js.map",
-    "static/js/2.c6d82668.chunk.js": "/Khushi-Shukla/asian-countries/static/js/2.c6d82668.chunk.js",
-    "static/js/2.c6d82668.chunk.js.map": "/Khushi-Shukla/asian-countries/static/js/2.c6d82668.chunk.js.map",
-    "static/js/3.475846c1.chunk.js": "/Khushi-Shukla/asian-countries/static/js/3.475846c1.chunk.js",
-    "static/js/3.475846c1.chunk.js.map": "/Khushi-Shukla/asian-countries/static/js/3.475846c1.chunk.js.map",
-    "index.html": "/Khushi-Shukla/asian-countries/index.html",
-    "static/css/main.d273d55a.chunk.css.map": "/Khushi-Shukla/asian-countries/static/css/main.d273d55a.chunk.css.map",
-    "static/js/2.c6d82668.chunk.js.LICENSE.txt": "/Khushi-Shukla/asian-countries/static/js/2.c6d82668.chunk.js.LICENSE.txt"
+    "main.css": "/asian-countries/static/css/main.d273d55a.chunk.css",
+    "main.js": "/asian-countries/static/js/main.b2583eb7.chunk.js",
+    "main.js.map": "/asian-countries/static/js/main.b2583eb7.chunk.js.map",
+    "runtime-main.js": "/asian-countries/static/js/runtime-main.c08d54d2.js",
+    "runtime-main.js.map": "/asian-countries/static/js/runtime-main.c08d54d2.js.map",
+    "static/js/2.c6d82668.chunk.js": "/asian-countries/static/js/2.c6d82668.chunk.js",
+    "static/js/2.c6d82668.chunk.js.map": "/asian-countries/static/js/2.c6d82668.chunk.js.map",
+    "static/js/3.475846c1.chunk.js": "/asian-countries/static/js/3.475846c1.chunk.js",
+    "static/js/3.475846c1.chunk.js.map": "/asian-countries/static/js/3.475846c1.chunk.js.map",
+    "index.html": "/asian-countries/index.html",
+    "static/css/main.d273d55a.chunk.css.map": "/asian-countries/static/css/main.d273d55a.chunk.css.map",
+    "static/js/2.c6d82668.chunk.js.LICENSE.txt": "/asian-countries/static/js/2.c6d82668.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c08d54d2.js",
