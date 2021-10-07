@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About the project
+
+The site displays information about Asian countries and uses the [restcountries](https://restcountries.com/) API
+
 ## Available Scripts
 
 In the project directory, you can run:
